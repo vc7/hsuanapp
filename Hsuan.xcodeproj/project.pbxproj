@@ -10,6 +10,10 @@
 		BF7A4E1F1ADC1BBF00EDB6D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7A4E1E1ADC1BBF00EDB6D5 /* AppDelegate.swift */; };
 		BF7A4E261ADC1BBF00EDB6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7A4E251ADC1BBF00EDB6D5 /* Images.xcassets */; };
 		BF7A4E351ADC1BBF00EDB6D5 /* HsuanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7A4E341ADC1BBF00EDB6D5 /* HsuanTests.swift */; };
+		BF7A4E421ADD6BF100EDB6D5 /* HSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7A4E411ADD6BF100EDB6D5 /* HSHomeViewController.swift */; };
+		BF7A4E441ADD761F00EDB6D5 /* HSSkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7A4E431ADD761F00EDB6D5 /* HSSkillsViewController.swift */; };
+		BF7A4E461ADD765A00EDB6D5 /* HSProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7A4E451ADD765A00EDB6D5 /* HSProjectsViewController.swift */; };
+		BF7A4E481ADD76BA00EDB6D5 /* HSInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7A4E471ADD76BA00EDB6D5 /* HSInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +34,10 @@
 		BF7A4E2E1ADC1BBF00EDB6D5 /* HsuanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HsuanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7A4E331ADC1BBF00EDB6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF7A4E341ADC1BBF00EDB6D5 /* HsuanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HsuanTests.swift; sourceTree = "<group>"; };
+		BF7A4E411ADD6BF100EDB6D5 /* HSHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSHomeViewController.swift; sourceTree = "<group>"; };
+		BF7A4E431ADD761F00EDB6D5 /* HSSkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSSkillsViewController.swift; sourceTree = "<group>"; };
+		BF7A4E451ADD765A00EDB6D5 /* HSProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSProjectsViewController.swift; sourceTree = "<group>"; };
+		BF7A4E471ADD76BA00EDB6D5 /* HSInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +124,10 @@
 		BF7A4E3F1ADD6AC700EDB6D5 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BF7A4E411ADD6BF100EDB6D5 /* HSHomeViewController.swift */,
+				BF7A4E431ADD761F00EDB6D5 /* HSSkillsViewController.swift */,
+				BF7A4E451ADD765A00EDB6D5 /* HSProjectsViewController.swift */,
+				BF7A4E471ADD76BA00EDB6D5 /* HSInfoViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -226,7 +238,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF7A4E421ADD6BF100EDB6D5 /* HSHomeViewController.swift in Sources */,
+				BF7A4E461ADD765A00EDB6D5 /* HSProjectsViewController.swift in Sources */,
 				BF7A4E1F1ADC1BBF00EDB6D5 /* AppDelegate.swift in Sources */,
+				BF7A4E481ADD76BA00EDB6D5 /* HSInfoViewController.swift in Sources */,
+				BF7A4E441ADD761F00EDB6D5 /* HSSkillsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

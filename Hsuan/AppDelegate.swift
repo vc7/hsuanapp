@@ -20,6 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window!.backgroundColor = UIColor.whiteColor()
         
         self.mainTabBarController = UITabBarController()
+        self.mainTabBarController!.viewControllers = [UINavigationController(rootViewController: HSHomeViewController()),
+            UINavigationController(rootViewController: HSSkillsViewController()),
+            UINavigationController(rootViewController: HSProjectsViewController()),
+            UINavigationController(rootViewController: HSInfoViewController())]
         
         self.window!.rootViewController = self.mainTabBarController
         
